@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+#title {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#description {
+    padding-bottom: 1.5rem;
+}
+
+#legend {
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 12px Arial;
+    background: rgba(255, 255, 204, 0.95);
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+    border: 0;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+svg {
+    text-align: center;
+    font: 10px sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#canvas {
+    min-height: 600px;
+    min-width: 1000px;
+}
